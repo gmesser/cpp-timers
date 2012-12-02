@@ -1,4 +1,4 @@
-CPP_Timers: an abstract BaseClock base class and three implementation classes:
+cpp-timers is an abstract BaseClock base class and three implementation classes:
 
 * CpuClock
   CpuClock uses the C function clock() to get the CPU time that the program
