@@ -1,4 +1,4 @@
-CPP_Timers: an abstract Timer base class and three implementation classes:
+CPP_Timers: an abstract BaseClock base class and three implementation classes:
 
 * CpuClock
   CpuClock uses the C function clock() to get the CPU time that the program
@@ -12,5 +12,5 @@ CPP_Timers: an abstract Timer base class and three implementation classes:
   RealtimeClock uses OS-specific functions to get the system time in
   nanoseconds.  Linux and Apple OS X code are included.
 
-The test program test_app is provided to allow simple testing of the classes.
+The test program test_app tests the classes.
 
