@@ -1,15 +1,12 @@
 cpp-timers is an abstract BaseClock base class and three implementation classes:
 
-* CpuClock
-  CpuClock uses the C function clock() to get the CPU time that the program
+* CpuClock uses the C function clock() to get the CPU time that the program
   has used since it started.
 
-* WallClock
-  WallClock uses the C function time() to get the current system time in
+* WallClock uses the C function time() to get the current system time in
   seconds.
 
-* RealtimeClock
-  RealtimeClock uses OS-specific functions to get the system time in
+* RealtimeClock uses OS-specific functions to get the system time in
   nanoseconds.  Linux and Apple OS X code are included.
 
 The test program test_app tests the classes.
