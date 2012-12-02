@@ -3,7 +3,6 @@
 #ifndef WALLCLOCK_H
 #define WALLCLOCK_H
 
-#include <time.h>
 #include "BaseClock.h"
 
 class WallClock : public BaseClock {

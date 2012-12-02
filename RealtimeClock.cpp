@@ -1,6 +1,5 @@
 // RealtimeClock.cpp
 
-//#include <sys/time.h>
 #include <time.h>
 #include "RealtimeClock.h"
 
