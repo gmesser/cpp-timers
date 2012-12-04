@@ -194,7 +194,7 @@ public:
 	}
 
 	/*
-	 * elapsedHMS()
+	 * elapsedDHMS()
 	 * Return the elapsed time in
 	 * seconds that the clock has been
 	 * running.  In addition, it breaks out
