@@ -53,6 +53,7 @@ public:
 		double ct = current_time();
 		_lastloop = ct;
 		_started = ct;
+		_stopped = 0.0;
 		_elapsed = 0.0;
 	}
 
@@ -118,7 +119,7 @@ public:
 		_lastloop = _started = _stopped = current_time();
 		_elapsed = 0.0;
 
-		return elapsed();
+		return _elapsed;
 	}
 
 	/*

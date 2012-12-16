@@ -38,7 +38,7 @@ int main(int argc, char** argv) {
 	printf("CpuClock.elapsed      = %4.9g\n", cpu.elapsed());
 	printf("RealtimeClock.elapsed = %4.9g\n", rtc.elapsed());
 	printf("WallClock.elapsed     = %4.9g\n", wcc.elapsed());
-	printf("The CPU clock does not run while the program is sleeping,\nbecause it only measures CPU time used by the program.\n");
+	printf("The CPU clock does not run while the program is sleeping\nbecause it only measures CPU time used by the program.\n");
 	printf("The real-time clock and the wall clock are always running.\n");
 
 	return 0;
